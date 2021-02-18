@@ -94,5 +94,5 @@ Function Interp-Path-To-Vars {
 	
 }
 
-$Machine = Get-ThePaths 'HKLM:\SYSTEM\CurrentControlSet\Control\Session Manager\Environment'
-$User = Get-ThePaths 'HKCU:\Environment'
+$Machine = Get-Paths 'HKLM:\SYSTEM\CurrentControlSet\Control\Session Manager\Environment'
+$User = Get-Paths 'HKCU:\Environment'
